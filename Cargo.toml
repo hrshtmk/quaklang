@@ -1,6 +1,12 @@
-[package]
-name = "quaklang"
+[workspace]
+members = [
+    "crates/quakc",
+    "crates/quak-rt",
+]
+resolver = "2"
+
+[workspace.package]
 version = "0.1.0"
 edition = "2024"
-
-[dependencies]
+authors = ["Harshit Mukhedka <harshit007k@gmail.com>"]
+license = "MIT OR Apache-2.0"

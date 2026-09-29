@@ -3,5 +3,9 @@
 version = 4
 
 [[package]]
-name = "quaklang"
+name = "quak-rt"
+version = "0.1.0"
+
+[[package]]
+name = "quakc"
 version = "0.1.0"
